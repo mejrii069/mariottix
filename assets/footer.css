@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    padding-bottom: 10px;
+}
+
+.footer .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .container .r1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer .container .r1 .c2 a {
+    margin: 5px;
+    transition: .5S;
+    color: var(--secondary);
+}
+
+.dark-mode .footer .container .r1 .c2 a {
+    margin: 5px;
+    color: var(--tertiary);
+    transition: .5S;
+}
+
+.footer .container .r1 .c2 a:hover {
+    color: var(--primary);
+    transition: .5S;
+}

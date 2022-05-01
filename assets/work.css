@@ -1,0 +1,202 @@
+.slidessection {
+    padding-top: 10vh;
+    width: 100%;
+    height: 40vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 25px;
+    color: var(--primary);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background-color: var(--primary);
+}
+
+
+/**DetailsSection**/
+
+.detailssection {
+    width: 100%;
+}
+
+.detailssection .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary);
+}
+
+.detailssection .container h1 {
+    margin-top: 10px;
+    color: var(--secondary);
+    font-size: 30px;
+}
+
+.detailssection .container h2 {
+    color: var(--secondary);
+    font-size: 15px;
+}
+
+.detailssection .container .technology {
+    margin-top: 10px;
+}
+
+.detailssection .container .technology .fa,
+.detailssection .container .technology .fab {
+    color: var(--secondary);
+    font-size: 25px;
+}
+
+.btnlivedemo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    transition: .5s;
+}
+
+.btnlivedemo:hover {
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    transition: .5s;
+}
+
+.detailssection .container .links {
+    margin-bottom: 10px;
+}
+
+.detailssection .container .links .fa {
+    color: var(--secondary);
+    font-size: 25px;
+}
+
+@media screen and (max-width:400px) {
+    .detailssection .container h1 {
+        font-size: 25px;
+    }
+    .detailssection .container h2 {
+        font-size: 15px;
+    }
+    .detailssection .container .technology {
+        margin-top: 15px;
+    }
+    .detailssection .container .technology .fa,
+    .detailssection .container .technology .fab {
+        font-size: 20px;
+    }
+    .btnlivedemo {
+        width: 120px;
+        height: 35px;
+    }
+    .detailssection .container .links .fa {
+        font-size: 20px;
+    }
+}
+
+
+/**DescriptionSection**/
+
+.descriptionsectioncard {
+    width: 100%;
+}
+
+.descriptionsectioncard .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.descriptionsectioncard .container h2 {
+    font-size: 30px;
+}
+
+.descriptionsectioncard .container p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+/**ReferencesSection**/
+
+.referencessection {
+    width: 100%;
+}
+
+.referencessection .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.referencessection .container h2 {
+    font-size: 30px;
+}
+
+.referencessection .container .references {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.referencessection .container .references img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/**Goback**/
+
+.goback {
+    width: 100%;
+}
+
+.goback .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.goback .container a {
+    font-size: 20px;
+    color: var(--primary);
+}
