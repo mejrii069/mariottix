@@ -1,0 +1,28 @@
+.changeModeBtn {
+    position: fixed;
+    top: 90vh;
+    right: 5vh;
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    border: none;
+}
+
+.dark-mode .changeModeBtn {
+    background-color: var(--tertiary);
+}
+
+.changeModeBtn:focus {
+    outline: none;
+}
+
+.changeModeBtn .fas {
+    color: var(--tertiary);
+    font-size: 20px;
+}
+
+.dark-mode .changeModeBtn .fas {
+    color: var(--secondary);
+    font-size: 20px;
+}
