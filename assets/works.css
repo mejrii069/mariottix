@@ -4,7 +4,9 @@
 }
 
 #worksection h1 {
-    padding-top: 15vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20vh;
     padding-bottom: 5vh;
     text-align: center;
 }
@@ -137,4 +139,39 @@
     #worksection .container .projects .project {
         width: 250px;
     }
+}
+
+/**Pagination**/
+.pagination {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    color: var(--secondary);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.dark-mode .pagination a {
+    color: var(--tertiary);
+}
+
+.pagination a.active {
+    background-color: var(--primary);
+    color: var(--card-light);
+}
+
+
+.pagination a:hover:not(.active) {
+    background-color: var(--card-light);
+}
+
+.dark-mode .pagination a:hover:not(.active) {
+    background-color: var(--card-dark);
 }
