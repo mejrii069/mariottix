@@ -1,4 +1,4 @@
-$(".cards").owlCarousel({
+$(".projects").owlCarousel({
     margin: 20,
     loop: true,
     autoplay: true,
